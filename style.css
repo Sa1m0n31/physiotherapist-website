@@ -14,10 +14,18 @@
     --hover: #AC0507;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 100%;
     overflow-x: hidden;
     position: relative;
+}
+
+.d-mobile {
+    display: none;
 }
 
 a {
@@ -60,12 +68,13 @@ a, button {
     padding: 20px 0;
 }
 
-.siteHEader__logo {
+.siteHeader__logo {
     max-width: 50px;
 }
 
 .siteHeader__menu {
     width: 60%;
+    max-width: 800px;
 }
 
 .siteHeader__menu__item {

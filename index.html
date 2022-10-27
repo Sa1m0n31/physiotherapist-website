@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
 </head>
 <body>
 <div class="container">
@@ -12,20 +13,48 @@
             <a href="./index.html" class="siteHeader__logo">
                 <img class="img" src="./img/logo.png" alt="logo" />
             </a>
-            <div class="siteHeader__menu flex">
+            <div class="siteHeader__menu flex d-desktop">
                 <a href="./index.html" class="siteHeader__menu__item">
                     Strona główna
                 </a>
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="#o-mnie" class="siteHeader__menu__item">
                     O mnie
                 </a>
                 <a href="./index.html" class="siteHeader__menu__item">
                     Oferta usług rehabilitacyjnych
                 </a>
                 <a href="./index.html" class="siteHeader__menu__item">
-                    Wyposażenie gabinetu
+                    Kontakt
                 </a>
             </div>
+            <button class="siteHeader__btn d-mobile" onclick="openMenu()">
+                <img class="img" src="./img/menu.svg" alt="menu" />
+            </button>
+        </div>
+
+        <div class="mobileMenu d-mobile">
+            <button class="mobileMenu__closeBtn" onclick="closeMenu()">
+                &times;
+            </button>
+
+            <a href="./index.html" class="footer__logo">
+                <img class="img" src="./img/logo-footer.png" alt="logo" />
+            </a>
+
+            <menu class="mobileMenu__menu">
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Strona główna
+                </a>
+                <a href="#o-mnie" class="siteHeader__menu__item">
+                    O mnie
+                </a>
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Oferta
+                </a>
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Kontakt
+                </a>
+            </menu>
         </div>
     </header>
 
@@ -39,13 +68,13 @@
             <h2 class="hero__h2">
                 Ewa Gapińska
             </h2>
-            <h3 class="hero__h3">
+            <h3 class="hero__h3 d-desktop">
                 Umów się na wizytę
             </h3>
-            <h4 class="hero__h4">
+            <h4 class="hero__h4 d-desktop">
                 tel. 600 114 278
             </h4>
-            <div class="hero__buttons center">
+            <div class="hero__buttons center d-desktop">
                 <a href="#kontakt" class="hero__btn hero__btn--red">
                     Kontakt z gabinetem
                 </a>
@@ -56,7 +85,24 @@
         </div>
     </main>
 
-    <div class="w flex section section--1">
+    <div class="d-mobile hero--mobile">
+        <h3 class="hero__h3">
+            Umów się na wizytę
+        </h3>
+        <h4 class="hero__h4">
+            tel. 600 114 278
+        </h4>
+        <div class="hero__buttons center">
+            <a href="#kontakt" class="hero__btn hero__btn--red">
+                Kontakt z gabinetem
+            </a>
+            <a href="./oferta.html" class="hero__btn hero__btn--black">
+                Nasza oferta
+            </a>
+        </div>
+    </div>
+
+    <div class="w flex section section--1" id="o-mnie">
         <div class="section__images">
             <img class="img img--1" src="./img/foto1.png" alt="ewa-gapińska" />
             <img class="img img--2" src="./img/foto2.png" alt="ewa-gapińska" />
@@ -162,9 +208,9 @@
         </div>
     </div>
 
-    <div class="w section section--img">
+    <div class="w section section--img d-desktop">
         <img class="img" src="./img/zaproszenie.png" alt="zaprszam" />
-        <h3 class="section__mainHeader">
+        <h3 class="section__mainHeader d-desktop">
             Zapraszam Ciebie do mojego Gabinetu Zdrowie. Sam przekonasz się o skuteczności moich zabiegów.
         </h3>
     </div>
@@ -254,11 +300,13 @@
                 <div class="footer__desc__socialMedia">
                     <a href="https://facebook.com"
                        rel="noreferrer"
+                       target="_blank"
                        class="footer__desc__socialMedia__item">
                         <img class="img" src="./img/facebook.svg" alt="facebook" />
                     </a>
                     <a href="https://instagram.com"
                        rel="noreferrer"
+                       target="_blank"
                        class="footer__desc__socialMedia__item">
                         <img class="img" src="./img/instagram.svg" alt="facebook" />
                     </a>
