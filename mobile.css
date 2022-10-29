@@ -279,6 +279,19 @@
         margin-bottom: 0 !important;
     }
 
+    .pageMain__subheader {
+        font-size: 16px;
+    }
+
+    .pageMain p {
+        font-size: 14px;
+    }
+
+    .page__header {
+        font-size: 19px;
+        margin-bottom: -10px;
+    }
+
     .mobileMenu {
         position: fixed;
         top: 0;
@@ -288,6 +301,7 @@
         background: #fff;
         z-index: 100;
         transform-origin: top right;
+        transform: scaleX(0);
         transition: .2s all;
         -webkit-box-shadow: 1px 0px 19px -7px rgba(66, 68, 90, 1);
         -moz-box-shadow: 1px 0px 19px -7px rgba(66, 68, 90, 1);
@@ -299,7 +313,8 @@
         padding: 20px;
     }
 
-    .mobileMenu * {
+    .mobileMenu > * {
+        opacity: 0;
         transition: .2s all;
     }
 

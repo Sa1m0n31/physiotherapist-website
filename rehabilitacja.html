@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style-old.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+</head>
+<body>
+<div class="container">
+    <header class="siteHeader">
+        <div class="stickyButton d-desktop">
+            <span>Skontaktuj się!</span>
+        </div>
+
+        <div class="stickyContact d-desktop center">
+            <div class="stickyContact__content">
+                <h4 class="stickyContact__header">
+                    Usługi Rehabilitacyjne "Zdrowie" Ewa Gapińska
+                </h4>
+                <div class="stickyContact__item">
+                    <img class="img" src="./img/location.svg" alt="lokalizacja" />
+                    <span class="stickyContact__item__content">
+                    ul. Janusza Korczaka 2A/1<br/>
+                    13-300 Nowe Miasto Lubawskie
+                </span>
+                </div>
+                <h5 class="stickyContact__subheader">
+                    Zadzwoń i umów się na wizytę
+                </h5>
+                <div class="stickyContact__item">
+                    <img class="img" src="./img/phone.svg" alt="lokalizacja" />
+                    <span class="stickyContact__item__content">
+                    tel. 500 114 278
+                </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w flex">
+            <a href="./index.html" class="siteHeader__logo">
+                <img class="img" src="./img/logo.png" alt="logo" />
+            </a>
+            <div class="siteHeader__menu flex d-desktop">
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Strona główna
+                </a>
+                <a href="#o-mnie" class="siteHeader__menu__item">
+                    O mnie
+                </a>
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Oferta usług rehabilitacyjnych
+                </a>
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Kontakt
+                </a>
+            </div>
+            <button class="siteHeader__btn d-mobile" onclick="openMenu()">
+                <img class="img" src="./img/menu.svg" alt="menu" />
+            </button>
+        </div>
+
+        <div class="mobileMenu d-mobile">
+            <button class="mobileMenu__closeBtn" onclick="closeMenu()">
+                &times;
+            </button>
+
+            <a href="./index.html" class="footer__logo">
+                <img class="img" src="./img/logo-footer.png" alt="logo" />
+            </a>
+
+            <menu class="mobileMenu__menu">
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Strona główna
+                </a>
+                <a href="#o-mnie" class="siteHeader__menu__item">
+                    O mnie
+                </a>
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Oferta
+                </a>
+                <a href="./index.html" class="siteHeader__menu__item">
+                    Kontakt
+                </a>
+            </menu>
+        </div>
+    </header>
+
+    <main class="pageMain w">
+        <h1 class="section__header">
+            Rehabilitacja
+        </h1>
+        <p class="pageMain__subheader">
+            Poznaj moje usługi z zakresu rehabilitacji.
+        </p>
+
+        <h2 class="page__header">
+            Diagnoza rehabilitacyjna - po pierwsze <span class="red">PRAWIDŁOWA DIAGNOZA</span>
+        </h2>
+        <p>
+            Aby przeprowadzić rehabilitację, niezbędna jest wizyta w gabinecie. Pozwoli ona prawidłowo ocenić aktualny stan, który wynika z:
+        </p>
+        <span class="pageMain__item">
+            <img class="img" src="./img/check.svg" alt="check" />
+            wywiadu z pacjentem,
+        </span>
+        <span class="pageMain__item">
+            <img class="img" src="./img/check.svg" alt="check" />
+            wstępnego badania,
+        </span>
+        <span class="pageMain__item">
+            <img class="img" src="./img/check.svg" alt="check" />
+            właściwej diagnostyki,
+        </span>
+        <span class="pageMain__item">
+            <img class="img" src="./img/check.svg" alt="check" />
+            przedstawienia planu terapii.
+        </span>
+
+        <p>
+            <span class="bold">Diagnoza rehabilitacyjna</span> z pomocą medycznej diagnostyki różnicowej polega na precyzyjnym określeniu przyczyny dolegliwości i stwierdzenie, czy przyczyny mogą być powiązane z innymi chorobami przewlekłymi, wrodzonymi lub urazami.
+        </p>
+        <p>
+            Diagnostyka ma za zadanie ocenić, czy sytuacja wymaga wizyty u lekarza specjalisty lub dodatkowych badań diagnostycznych, mających na celu np. wyeliminowanie złamania kości lub zerwania tkanek miękkich jak mięśnie czy wiązadła.
+        </p>
+        <p>
+            Fizjoterapeuta podczas diagnozy może stwierdzić, czy objawy zgłaszane przez pacjenta mogą świadczyć o pojawieniu się choroby i czy konieczna będzie dalsza diagnostyka u lekarza specjalisty. Znaczna część objawów chorób może dawać dolegliwości w obszarze narządu ruchu i odwrotnie. Nie należy bagatelizować współistniejących objawów, gdyż mogą one okazać się bardzo przydatne w wystawieniu diagnozy.
+        </p>
+    </main>
+
+    <div class="w section section--contact" id="kontakt">
+        <h3 class="section__header">
+            Skontaktuj się i umów na wizytę
+        </h3>
+        <div id="map">
+            <!-- MAP -->
+        </div>
+        <div class="contact flex">
+            <div class="contact__item">
+                <img class="img" src="./img/location.svg" alt="lokalizacja" />
+                <span class="contact__item__text">
+                    ul. Janusza Korczaka 2A/1<br/>
+                    13-300 Nowe Miasto Lubawskie
+                </span>
+            </div>
+            <a class="contact__item" href="tel:+48500114278">
+                <img class="img" src="./img/phone.svg" alt="lokalizacja" />
+                <span class="contact__item__text">
+                    tel. 500 114 278
+                </span>
+            </a>
+            <a class="contact__item" href="mailto:kontakt@fizjo.pl">
+                <img class="img" src="./img/mail.svg" alt="lokalizacja" />
+                <span class="contact__item__text">
+                    kontakt@fizjo.pl
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <footer class="w flex footer">
+        <div class="footer__main">
+            <a href="./index.html" class="footer__logo">
+                <img class="img" src="./img/logo-footer.png" alt="logo" />
+            </a>
+            <div class="footer__desc">
+                <h4 class="footer__desc__header">
+                    Usługi Rehabilitacyjne "Zdrowie"
+                </h4>
+                <p class="footer__desc__text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                </p>
+                <div class="footer__desc__socialMedia">
+                    <a href="https://facebook.com"
+                       rel="noreferrer"
+                       target="_blank"
+                       class="footer__desc__socialMedia__item">
+                        <img class="img" src="./img/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="https://instagram.com"
+                       rel="noreferrer"
+                       target="_blank"
+                       class="footer__desc__socialMedia__item">
+                        <img class="img" src="./img/instagram.svg" alt="facebook" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__cols">
+            <div class="footer__col">
+                <h5 class="footer__col__header">
+                    Oferta
+                </h5>
+                <a class="footer__col__item" href="#">
+                    Rehabilitacja
+                </a>
+                <a class="footer__col__item" href="#">
+                    Masaże
+                </a>
+                <a class="footer__col__item" href="#">
+                    Ćwiczenia
+                </a>
+                <a class="footer__col__item" href="#">
+                    Regeneracja
+                </a>
+            </div>
+            <div class="footer__col">
+                <h5 class="footer__col__header">
+                    Mapa strony
+                </h5>
+                <a class="footer__col__item" href="#">
+                    Strona główna
+                </a>
+                <a class="footer__col__item" href="#">
+                    Oferta
+                </a>
+                <a class="footer__col__item" href="#">
+                    Opinie
+                </a>
+                <a class="footer__col__item" href="#">
+                    Kontakt
+                </a>
+            </div>
+            <div class="footer__col">
+                <h5 class="footer__col__header">
+                    Dane kontaktowe
+                </h5>
+                <p class="footer__col__item">
+                <span class="bold">
+                    Usługi rehabilitacyjne "Zdrowie"<br/>
+                    Rwa Gapińska
+                </span><br/>
+                    <span class="bold">
+                    tel.
+                </span>
+                    500 114 278<br/>
+                    <span class="bold">
+                    mail:
+                </span>
+                    kontakt@fizjo.pl<br/>
+                    ul. Janusza Korczaka 2A/1<br/>
+                    13-300 Nowe Miasto Lubawskie<br/>
+                    <span class="bold">
+                    NIP:
+                </span>
+                    8771398921<br/>
+                    <span class="bold">
+                    REGON:
+                </span>
+                    280152840
+                </p>
+            </div>
+        </div>
+    </footer>
+    <aside class="w aside">
+        <h6 class="aside__header">
+            © 2022 Usługi Rehabilitacyjne "Zdrowie" Ewa Gapińska.
+        </h6>
+    </aside>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
