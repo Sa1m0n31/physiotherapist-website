@@ -35,7 +35,7 @@ get_header();
             <a href="#kontakt" class="hero__btn hero__btn--red">
                 Kontakt z gabinetem
             </a>
-            <a href="./oferta.html" class="hero__btn hero__btn--black">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Oferta' )->ID ); ?>" class="hero__btn hero__btn--black">
                 Nasza oferta
             </a>
         </div>
@@ -53,7 +53,7 @@ get_header();
         <a href="#kontakt" class="hero__btn hero__btn--red">
             Kontakt z gabinetem
         </a>
-        <a href="./oferta.html" class="hero__btn hero__btn--black">
+        <a href="<?php echo get_page_link( get_page_by_title( 'Oferta' )->ID ); ?>" class="hero__btn hero__btn--black">
             Nasza oferta
         </a>
     </div>
@@ -118,7 +118,7 @@ get_header();
             <p class="offer__item__text">
                 Szeroki zakres usług rehabilitacyjnych, obejmujący m.in. diagnozę oraz dobranie prawidłowych działań prowadzących do poprawy zdrowia.
             </p>
-            <a href="#" class="offer__item__btn">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Rehabilitacja' )->ID ); ?>" class="offer__item__btn">
                 Dowiedz się więcej
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/arrow.svg"; ?>" alt="więcej" />
             </a>
@@ -131,7 +131,7 @@ get_header();
             <p class="offer__item__text">
                 Oferuję kilka typów masażów, dostosowanych pod pacjenta i jego dolegliwości lub cele, np. regenerację i odpowiednie przygotowanie do ćwiczeń.
             </p>
-            <a href="#" class="offer__item__btn">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Masaże' )->ID ); ?>" class="offer__item__btn">
                 Dowiedz się więcej
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/arrow.svg"; ?>" alt="więcej" />
             </a>
@@ -144,7 +144,7 @@ get_header();
             <p class="offer__item__text">
                 Podstawowym rodzaj zabiegów fizjoterapeutycznych. Ich wykonywanie ma prowadzić do tego, by pacjent odzyskał pełnię sprawności.
             </p>
-            <a href="#" class="offer__item__btn">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Ćwiczenia' )->ID ); ?>" class="offer__item__btn">
                 Dowiedz się więcej
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/arrow.svg"; ?>" alt="więcej" />
             </a>
@@ -157,7 +157,7 @@ get_header();
             <p class="offer__item__text">
                 Regeneracja to jeden z podstawowych procesów, zachodzących w ciele. Potrzebujemy nieustannie nowych sił i energii do życia.
             </p>
-            <a href="#" class="offer__item__btn">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Regeneracja' )->ID ); ?>" class="offer__item__btn">
                 Dowiedz się więcej
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/arrow.svg"; ?>" alt="więcej" />
             </a>
@@ -172,7 +172,7 @@ get_header();
     </h3>
 </div>
 
-<div class="w section section--opinions">
+<div class="w section section--opinions" id="opinie">
     <h3 class="section__header">
         Opinie pacjentów
     </h3>

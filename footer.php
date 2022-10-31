@@ -16,9 +16,7 @@
         Skontaktuj się i umów na wizytę
     </h3>
     <div id="map">
-        <?php
-            echo do_shortcode('[wpgmza id="1"]');
-        ?>
+        <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/pl/map/mapa-bez-nazwy_827385?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
     </div>
     <div class="contact flex">
         <div class="contact__item">
@@ -45,7 +43,7 @@
 
 <footer class="w flex footer">
     <div class="footer__main">
-        <a href="./index.html" class="footer__logo">
+        <a href="<?php echo home_url(); ?>" class="footer__logo">
             <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/logo-footer.png"; ?>" alt="logo" />
         </a>
         <div class="footer__desc">
@@ -77,16 +75,16 @@
             <h5 class="footer__col__header">
                 Oferta
             </h5>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo get_page_link( get_page_by_title( 'Rehabilitacja' )->ID ); ?>">
                 Rehabilitacja
             </a>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo get_page_link( get_page_by_title( 'Masaże' )->ID ); ?>">
                 Masaże
             </a>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo get_page_link( get_page_by_title( 'Ćwiczenia' )->ID ); ?>">
                 Ćwiczenia
             </a>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo get_page_link( get_page_by_title( 'Regeneracja' )->ID ); ?>">
                 Regeneracja
             </a>
         </div>
@@ -94,16 +92,16 @@
             <h5 class="footer__col__header">
                 Mapa strony
             </h5>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo home_url(); ?>">
                 Strona główna
             </a>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo get_page_link( get_page_by_title( 'Oferta' )->ID ); ?>">
                 Oferta
             </a>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo home_url(); ?>#opinie">
                 Opinie
             </a>
-            <a class="footer__col__item" href="#">
+            <a class="footer__col__item" href="<?php echo home_url(); ?>#kontakt">
                 Kontakt
             </a>
         </div>

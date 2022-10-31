@@ -209,6 +209,11 @@
         display: block;
     }
 
+    .page__secondHeader {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
     .siteHeader__logo {
         width: 20px;
     }

@@ -549,7 +549,14 @@ a.footer__col__item:hover {
 	margin: 40px 0 12px;
 }
 
-.pageMain *:not(.page__header, .section__header, .red) {
+.page__secondHeader {
+	font-weight: 700;
+	font-size: 18px;
+	color: var(--grey);
+	margin: 25px 0 10px;
+}
+
+.pageMain p, .pageMain .page__secondHeader, .pageMain .pageMain__item {
 	color: var(--grey);
 }
 
@@ -570,5 +577,5 @@ a.footer__col__item:hover {
 }
 
 #map {
-
+	margin: 30px 0 -20px;
 }

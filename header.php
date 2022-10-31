@@ -53,20 +53,20 @@
         </div>
 
         <div class="w flex">
-            <a href="./index.html" class="siteHeader__logo">
+            <a href="<?php echo home_url(); ?>" class="siteHeader__logo">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/logo.png"; ?>" alt="logo" />
             </a>
             <div class="siteHeader__menu flex d-desktop">
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="<?php echo home_url(); ?>" class="siteHeader__menu__item">
                     Strona główna
                 </a>
-                <a href="#o-mnie" class="siteHeader__menu__item">
+                <a href="<?php echo home_url(); ?>#o-mnie" class="siteHeader__menu__item">
                     O mnie
                 </a>
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="<?php echo get_page_link( get_page_by_title( 'Oferta' )->ID ); ?>" class="siteHeader__menu__item">
                     Oferta usług rehabilitacyjnych
                 </a>
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="<?php echo home_url() . '#kontakt' ?>" class="siteHeader__menu__item">
                     Kontakt
                 </a>
             </div>
@@ -80,21 +80,21 @@
                 &times;
             </button>
 
-            <a href="./index.html" class="footer__logo">
+            <a href="<?php echo home_url(); ?>" class="footer__logo">
                 <img class="img" src="<?php echo get_bloginfo("stylesheet_directory") . "/img/logo-footer.png"; ?>" alt="logo" />
             </a>
 
             <menu class="mobileMenu__menu">
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="<?php echo home_url(); ?>" class="siteHeader__menu__item">
                     Strona główna
                 </a>
-                <a href="#o-mnie" class="siteHeader__menu__item">
+                <a href="<?php echo home_url(); ?>#o-mnie" class="siteHeader__menu__item">
                     O mnie
                 </a>
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="<?php echo get_page_link( get_page_by_title( 'Oferta' )->ID ); ?>" class="siteHeader__menu__item">
                     Oferta
                 </a>
-                <a href="./index.html" class="siteHeader__menu__item">
+                <a href="<?php echo home_url(); ?>#kontakt" class="siteHeader__menu__item">
                     Kontakt
                 </a>
             </menu>

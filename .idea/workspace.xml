@@ -20,52 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15cf9509-7b16-4775-8d23-5804508ce3da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/custom-header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/jetpack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/template-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/template-tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/customizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/zdrowie.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-cwiczenia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-masaze.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-oferta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-regeneracja.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-rehabilitacja.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rehabilitacja.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-none.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ewa-gapinska.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ewa-gapinska.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-oferta.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-oferta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-rehabilitacja.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-rehabilitacja.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +36,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -99,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alibaba" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -123,7 +86,8 @@
       <workItem from="1666918251496" duration="18000" />
       <workItem from="1667063418635" duration="4043000" />
       <workItem from="1667067547691" duration="662000" />
-      <workItem from="1667070791047" duration="1163000" />
+      <workItem from="1667070791047" duration="1425000" />
+      <workItem from="1667235649815" duration="5981000" />
     </task>
     <servers />
   </component>
